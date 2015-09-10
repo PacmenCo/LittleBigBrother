@@ -2,396 +2,207 @@
 <items version="2" >
 
     <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-8ab2c65afe689ed326b4a30b78b5a050315a014f.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-3fd7f4fc0284c4b5faa694b1ea8e59b692904f5e.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2e24e5f1b11170163028277de63f709e42525db4">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-dd957e09cd65078e2705efa055e640d383765a1b.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-c45c034f2b1a06afb8aa99026ee8b74b15a2bcfd.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-3e5460007e6b04dfeed4da1ebea025b5407d0984.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-0b0757e2eb367d0180168310e2f8252a589413a7.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2e24e5f1b11170163028277de63f709e42525db4">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-504863bf42c7faf1f272291680f51c46fe449dbf.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-6f6d233c43531413ddedae69996ea3746b2c34d7.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-5eb4622ef4382b6645ddfb54856099e4223046e1.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-ed4fd3e016917b7d303ad0c7fe245aaae47b74df.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-d193d6e2764a0c0913dbefe2ccd60e4d0d9ba707.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-f563ee400d7701bff21088a94cd46f5a7d942efb.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-4ba0875e701268b19e3ab853e317ffb16847ff16.jar" />
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-faa478efa64bed7fb98ce7b30efc88c73eabd245.jar" />
     </item>
     <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-968e2586b54e6eebd7179c1a3a3a5c182515ffeb.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-2a8636e67b8537e500be2ef4d2b032604bc9856d.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.facebook.android/facebook/4.5.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c1875b5fd2dffef9be04db6b9f408d5b797ec075">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-949b101fff84e0c72f067c4ea9111a5a55009859.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-c240b1ade578392f3c76de3a4e975e7e38f1ee71.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-c8e4baa2cb0ae43363ea1faff474edfcb29b4671.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-8ad37c41ded3722c66d6a78676390cb6a77430de.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-5463722f3c26e9f9e58b7d823b19fa73fb28359e.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-f322c05c16ae3d2df4da378b9d115b68a86133d6.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-1115392edcc6cd300c0afddfd88477ea9bfb699f.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-172941870f0de82ad755ef7737fcc87e7d23200e.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-48b1a513f26e1789a112f787518f645880fb1eff.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-f74189c44f0b575c2f761b76f35a30da59887eb0.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-32ac117a6199751f175d6d667cdb05268cca59d0.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-6a05344c28d35aacb3a2c4a2f91034804674b18a.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-8da161a3c50320f388fd54cc5e900a43c89a9803.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-e722a46c10c541bac7c21fc4479f3fa33ba4071d.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-c610070a70aab5b6c4062f093d68641589a00805.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-ec1bb22815bcfcc7ee25225d6d01003f664b5a51.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-84d4eb3d87480ddfc0dd7c9fea510daa30f4d221.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-97abb88bcc857d3f0e904058c91abacda5ff85b8.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-39b60dceb688cc45ab96393155af288fb48bcfa7.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-862227b563100477a8d1a20065fb071f108dfa9c.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-465c34a8b162b09594ee3d4271b5c2934f284ad8.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-8ea1cc3be4c22fd636e6865d38bc9ae286df296c.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-735cceb791e17f137b2bf387346591152eed5717.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-eadcb59ad671f2c35ecf1671d73325da188d4d86.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-d866a19451187df2fc6639b95e969c161735b335.jar" />
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-68c7d13909d237830dd323ae5cf3c8081f4b4296.jar" />
     </item>
     <item
         jar="/Users/Rasmus/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-71b7bd8c71e9c34a7c1d789e1f8c215aa25d540b.jar" />
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-71b7bd8c71e9c34a7c1d789e1f8c215aa25d540b.jar" />
     </item>
     <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-89d9282b79d6fea26a19ad6f7ee9b82f040d499d.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-22e426906db1ff2d75a212e13a217caf9fc5b6e9.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-93e93eb36fa782131da1dba5ca90efc89d710136.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-13a9363df9d5ab74878c7a9d40f17e8ba0a0e3da.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-4bfd985979b73b2f2ae965dc7454ab0aad574261.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-7f8ed73e95c95336d2ca036b8957ef9e9a7fd717.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.facebook.android/facebook/4.5.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2e2095761815e21531b717746789064e8e8ce880">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-9eb629fd674cd9bcb2559c5a0c78ed1fef354475.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-e1cb626243e85a71a8f69091ceb7b970c01396d8.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-23281d55f65ad16fa921ed0e2b83ed01c22c96cc.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-54d5cd0488f315e4a2e8322615a140403001a1df.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-71a6ff79ed189c0f5422159a1e6c4a5fd6af7258.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
-        <dex dex="/Users/Rasmus/Desktop/School/PerCom/app/build/intermediates/pre-dexed/debug/classes-706b0074ebeb7623f5cb4f92e2e0e107dbffdc22.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-c312e28ddb44f247bcaea67ea075f4dbc75eb42a.jar" />
-    </item>
-    <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-61ee0e516e11f4483cd13a932aa3bcc97b7085ac.jar" />
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-c710151e131436bdd9eecda11b3b6660c9136aa7.jar" />
     </item>
     <item
-        jar="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-88c1b8af6f783b2b99e9754f016b56f3b4ab88c8.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-20af7d833db35818345ba4b280cf9d1ea3410f31.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-13cbef78aeda67cf8c938daf4bec8fb2397f822f.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-bc5573962aca48a971d3e113746caa9f89b35833.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-ac0597480f065c22959a2b095304daa02c086cfb.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-64f62860367aefdb7cf47cbeac65eee9fdac4227.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-5694d1675f6a644f3df56ce410ee0319307e2ed6.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-bab000a459bc3545ed7e531f1da69ef1efb897cd.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-9aa2407ad18dc37f4792812f3914910fc6e71e4d.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-66a9b586e8254475b7cebd55b942fc4aac09c624.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-b7f508be8ec3b7a4a304d7b770092730850f9e15.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-76cfeb60739bbb4a80aade1d912dc7c8ffbd6d83.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-24068e0244a407896361697fb9087bd1cab78bfd.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-b6957f0f137decda0f81722542f3361a9ad80352.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-e7e087a7ff1c0949276767b1fc3a7e7f56e1cfe4.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-5da51c62e64543353f4f1a40958bba91d15147b3.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-47d3212f6ff5ad778aa6c61c885430a365744c1e.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-9e5f5be3186e4c9716eddc53d25bf34fdf88b7d6.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-ebe892bc3983a255c429d7e96a86adf141138bbe.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-9fdb2e61fa9778c61770177e1623be6906f96823.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-883961e15150d8c2e776d80ef3bda3f88e638b8d.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.facebook.android/facebook/4.5.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="71a2e2ca7903bb9977a829c8bba690a1ac9bd682">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-80017ddadc99cdc9e65479c60f58553d45422440.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
-        <dex dex="/Users/Rasmus/Desktop/School/PervasiveComputing/app/build/intermediates/pre-dexed/debug/classes-a9af67f57343213f0ee44599cafa6e351e62ed1e.jar" />
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-784d2d382fd01dda4ae1b4ee07dfbd9872c53485.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/classes-0ba26b66fff88180fe69dd8a086ec083a1f80276.jar" />
+    </item>
+    <item
+        jar="/Users/Rasmus/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-f563ee400d7701bff21088a94cd46f5a7d942efb.jar" />
     </item>
 
 </items>

@@ -2557,6 +2557,10 @@ containing a value of this type.
         public static final int mr_media_route_controller_stop=0x7f07005b;
         public static final int mr_system_route_name=0x7f070046;
         public static final int mr_user_route_category_name=0x7f070047;
+        /** Whether you are a local person or a traveller in town, there are always people just around the corner who, like you, wishes to be enriched today!
+        \'Enriched Today\' is for people who seek empowerment in their lives by spending a day with a totally new person!
+        Continue and let your life be \'Enriched Today\'! 
+         */
         public static final int start_breadtext=0x7f07005c;
         public static final int start_pic=0x7f07005d;
         public static final int start_text=0x7f07005e;

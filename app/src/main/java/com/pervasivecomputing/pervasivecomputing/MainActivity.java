@@ -23,10 +23,17 @@ import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
 import com.facebook.appevents.AppEventsLogger;
+import com.facebook.internal.GraphUtil;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
+import com.facebook.share.internal.OpenGraphJSONUtility;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -35,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
     Button mapButton;
 
     private int uselessInt;
+
+   LoginResult loginRes;
+    private String username = "";
 
     private CallbackManager callbackManager;
     private TextView info;
@@ -57,8 +67,12 @@ public class MainActivity extends AppCompatActivity {
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-                info.setText("User ID: " + loginResult.getAccessToken().getUserId() + "\n"
-                        + "Auth Token: " + loginResult.getAccessToken().getToken());
+                loginRes = loginResult;
+                info.setText("User ID: " + loginResult.getAccessToken().getUserId());
+
+                getFacebookName();
+
+                        //+ "Auth Token: " + loginResult.getAccessToken().getToken());
                // Intent mapScreen = new Intent();
                // mapScreen.setClass(getApplicationContext(), MapsActivity.class);
                 //startActivity(mapScreen);
@@ -77,11 +91,6 @@ public class MainActivity extends AppCompatActivity {
 
 
        // getUserInfo();
-
-
-
-
-
         //background = (RelativeLayout) findViewById(R.id)
         mapButton = (Button) findViewById(R.id.mapbutton);
 
@@ -95,6 +104,27 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void getFacebookName(){
+        GraphRequest request = GraphRequest.newMeRequest(
+                loginRes.getAccessToken(),
+                new GraphRequest.GraphJSONObjectCallback() {
+                    @Override
+                    public void onCompleted(
+                            JSONObject object,
+                            GraphResponse response) {
+                        try {
+                            username = (String) object.get("name");
+                            info.setText("\nUsername: " + username);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                });
+        Bundle parameters = new Bundle();
+        parameters.putString("fields", "id,name,link");
+        request.setParameters(parameters);
+        request.executeAsync();
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){

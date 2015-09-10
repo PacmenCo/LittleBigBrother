@@ -28,8 +28,10 @@
         android:id="@+id/userName"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_centerVertical="true"
-        android:text="fbName" />
+        android:text="fbName"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignRight="@+id/mapbutton"
+        android:layout_alignEnd="@+id/mapbutton" />
 
     <Button
         android:id="@+id/mapbutton"
