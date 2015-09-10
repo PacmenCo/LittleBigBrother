@@ -3,4 +3,4 @@
     android:layout_height="match_parent" android:id="@+id/map"
     tools:context="com.pervasivecomputing.pervasivecomputing.MapsActivity"
     android:name="com.google.android.gms.maps.SupportMapFragment" />
-<!-- From: file:/Users/Rasmus/Desktop/School/PerCom/app/src/main/res/layout/activity_maps.xml -->
+<!-- From: file:/Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/res/layout/activity_maps.xml -->

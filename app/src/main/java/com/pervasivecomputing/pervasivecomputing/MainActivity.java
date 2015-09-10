@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
     RelativeLayout background;
     Button mapButton;
 
+    private int uselessInt;
+
     private CallbackManager callbackManager;
     private TextView info;
     private LoginButton loginButton;
