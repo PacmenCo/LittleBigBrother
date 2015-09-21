@@ -102,9 +102,9 @@ public class MapsActivity extends FragmentActivity {
 
                     mMap.addMarker(new MarkerOptions()
                             .position(new LatLng(
-                                    (double)postSnapshot.child("location").child("latitude").getValue(),
-                                    (double)postSnapshot.child("location").child("longitude").getValue()))
-                            .title("ddfdff"));
+                                    (double) postSnapshot.child("location").child("latitude").getValue(),
+                                    (double) postSnapshot.child("location").child("longitude").getValue()))
+                            .title((String)postSnapshot.child("name").getValue()));
                 }
             }
 
