@@ -19,6 +19,7 @@ import java.security.NoSuchAlgorithmException;
 import android.content.pm.Signature;
 import android.widget.TextView;
 
+import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -44,11 +45,13 @@ public class MainActivity extends AppCompatActivity {
     private int uselessInt;
 
    LoginResult loginRes;
-    private String username = "";
+    public static String username = "";
+    public static AccessToken token;
 
     private CallbackManager callbackManager;
     private TextView info;
     private LoginButton loginButton;
+
 
 
     @Override
@@ -69,12 +72,12 @@ public class MainActivity extends AppCompatActivity {
             public void onSuccess(LoginResult loginResult) {
                 loginRes = loginResult;
                 info.setText("User ID: " + loginResult.getAccessToken().getUserId());
+                token = loginResult.getAccessToken();
 
                 getFacebookName();
-
-                        //+ "Auth Token: " + loginResult.getAccessToken().getToken());
-               // Intent mapScreen = new Intent();
-               // mapScreen.setClass(getApplicationContext(), MapsActivity.class);
+                //+ "Auth Token: " + loginResult.getAccessToken().getToken());
+                // Intent mapScreen = new Intent();
+                // mapScreen.setClass(getApplicationContext(), MapsActivity.class);
                 //startActivity(mapScreen);
             }
 
@@ -97,12 +100,21 @@ public class MainActivity extends AppCompatActivity {
         mapButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mapScreen = new Intent();
-                mapScreen.setClass(getApplicationContext(), MapsActivity.class);
-                startActivity(mapScreen);
+                fireBaseActivity();
+               // Intent mapScreen = new Intent();
+                //mapScreen.setClass(getApplicationContext(), MapsActivity.class);
+                //startActivity(mapScreen);
             }
         });
+
     }
+
+    public void fireBaseActivity(){
+        Intent mapScreen = new Intent();
+        mapScreen.setClass(getApplicationContext(), LandingPage.class);
+        startActivity(mapScreen);
+    }
+
 
     public void getFacebookName(){
         GraphRequest request = GraphRequest.newMeRequest(
@@ -115,6 +127,7 @@ public class MainActivity extends AppCompatActivity {
                         try {
                             username = (String) object.get("name");
                             info.setText("\nUsername: " + username);
+
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }

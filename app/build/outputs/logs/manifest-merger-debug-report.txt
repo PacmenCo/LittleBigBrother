@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:2:1-54:12
+ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:2:1-59:12
 	package
 		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:3:5-56
 		INJECTED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml
@@ -60,7 +60,7 @@ ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidMan
 	android:name
 		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:16:22-76
 application
-ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:20:5-52:19
+ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:20:5-57:19
 MERGED from [com.android.support:appcompat-v7:23.0.0] /Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.0.0] /Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services:7.8.0] /Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/7.8.0/AndroidManifest.xml:19:5-20
@@ -225,18 +225,24 @@ ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidMan
 		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:46:13-56
 	android:name
 		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:45:13-41
-meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:49:9-98
-	android:value
-		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:49:66-96
-	android:name
-		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:49:20-65
-activity#com.facebook.FacebookActivity
-ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:50:9-108
+activity#com.pervasivecomputing.pervasivecomputing.LandingPage
+ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:49:9-52:20
 	android:label
-		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:50:19-51
+		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:51:13-63
 	android:name
-		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:50:52-96
+		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:50:13-40
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:54:9-98
+	android:value
+		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:54:66-96
+	android:name
+		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:54:20-65
+activity#com.facebook.FacebookActivity
+ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:55:9-108
+	android:label
+		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:55:19-51
+	android:name
+		ADDED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:55:52-96
 uses-sdk
 INJECTED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.0.0] /Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/AndroidManifest.xml:20:5-43
@@ -363,7 +369,7 @@ MERGED from [com.google.android.gms:play-services-maps:7.8.0] /Users/Rasmus/Desk
 	android:required
 		ADDED from [com.google.android.gms:play-services-maps:7.8.0] /Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/AndroidManifest.xml:25:8-31
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:2:1-54:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/Rasmus/Desktop/School/LittleBigBrother/app/src/main/AndroidManifest.xml:2:1-59:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.android.gms:play-services-gcm:7.8.0] /Users/Rasmus/Desktop/School/LittleBigBrother/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/AndroidManifest.xml:21:5-82
 	android:name

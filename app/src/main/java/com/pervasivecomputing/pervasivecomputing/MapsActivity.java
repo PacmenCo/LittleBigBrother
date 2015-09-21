@@ -1,28 +1,49 @@
 package com.pervasivecomputing.pervasivecomputing;
 
+import android.content.Context;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.location.LocationProvider;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
+import com.firebase.client.AuthData;
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import org.json.JSONObject;
+
+import java.util.List;
+import java.util.Map;
+
 public class MapsActivity extends FragmentActivity {
 
-    private GoogleMap mMap; // Might be null if Google Play services APK is not available.
+    public static GoogleMap mMap; // Might be null if Google Play services APK is not available.
+
+    public static Location location;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         setUpMapIfNeeded();
+
     }
 
     @Override
     protected void onResume() {
         super.onResume();
         setUpMapIfNeeded();
+
     }
 
     /**
@@ -44,8 +65,7 @@ public class MapsActivity extends FragmentActivity {
         // Do a null check to confirm that we have not already instantiated the map.
         if (mMap == null) {
             // Try to obtain the map from the SupportMapFragment.
-            mMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map))
-                    .getMap();
+            mMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
             // Check if we were successful in obtaining the map.
             if (mMap != null) {
                 setUpMap();
@@ -59,8 +79,92 @@ public class MapsActivity extends FragmentActivity {
      * <p/>
      * This should only be called once and when we are sure that {@link #mMap} is not null.
      */
+
+    public static Map<String, User> s;
+
     private void setUpMap() {
-        mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
-        mMap.setMyLocationEnabled(true);
+        // Get a reference to our posts
+        ref = new Firebase("https://blinding-heat-6209.firebaseio.com/users");
+
+// Attach an listener to read the data at our posts reference
+
+        // Get a reference to our posts
+
+        // Attach an listener to read the data at our posts reference
+
+        ref.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot snapshot) {
+                System.out.println("There are " + snapshot.getChildrenCount() + " blog posts");
+                for (DataSnapshot postSnapshot : snapshot.getChildren()) {
+                    System.out.println("THE SNAPSHOTS " + postSnapshot.child("location").child("latitude").getValue());
+
+
+                    mMap.addMarker(new MarkerOptions()
+                            .position(new LatLng(
+                                    (double)postSnapshot.child("location").child("latitude").getValue(),
+                                    (double)postSnapshot.child("location").child("longitude").getValue()))
+                            .title("ddfdff"));
+                }
+            }
+
+            @Override
+            public void onCancelled(FirebaseError firebaseError) {
+                System.out.println("The read failed: " + firebaseError.getMessage());
+            }
+        });
+
+
+
+
+        locationUpdater();
+
+        //mMap.setMyLocationEnabled(true);
+    }
+
+
+       private String locationProvider;
+        private LocationManager locationManager;
+    private AuthData data;
+    Firebase ref;
+
+    public void locationUpdater(){
+        locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+
+        locationProvider = LocationManager.NETWORK_PROVIDER;
+
+
+
+        LocationListener locationListener = new LocationListener() {
+            public void onLocationChanged(Location location) {
+                try {
+                    // Location loc = locationManager.getLastKnownLocation(locationProvider);
+                    //fireB3.setText("YOU ARE NOW AUTHENTICATED" + location.getLatitude() +" ; "+ location.getLongitude());
+                    if (data != null) {
+                        Firebase alanRef = ref.child("users").child(data.getUid());
+
+                        User alan = new User(data.getProviderData().get("displayName").toString(), location);
+                        alanRef.setValue(alan);
+                    }
+                } catch (Exception e){
+
+                }
+
+            }
+
+            public void onStatusChanged(String provider, int status, Bundle extras) {}
+
+            public void onProviderEnabled(String provider) {}
+
+            public void onProviderDisabled(String provider) {}
+        };
+
+// Register the listener with the Location Manager to receive location updates
+
+        try {
+            locationManager.requestLocationUpdates(locationProvider, 0, 0, locationListener);
+        } catch (Exception e){
+           // fireB3.setText("NO LOC");
+        }
     }
 }
