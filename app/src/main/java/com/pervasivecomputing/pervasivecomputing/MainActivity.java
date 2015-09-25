@@ -44,13 +44,16 @@ public class MainActivity extends AppCompatActivity {
 
     private int uselessInt;
 
-   LoginResult loginRes;
+    LoginResult loginRes;
     public static String username = "";
     public static AccessToken token;
 
     private CallbackManager callbackManager;
     private TextView info;
     private LoginButton loginButton;
+
+
+
 
 
 
